@@ -35,6 +35,7 @@ a {
     left: 640px;
     top: 17px;
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
