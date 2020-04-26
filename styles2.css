@@ -1,0 +1,220 @@
+.grid {
+    display: grid;
+    grid-template-rows: 15vh 65vh 20vh;
+    max-width: 1600px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 139, 52);
+    grid-row: 1/2;
+    font-size: 1.4em;
+    font-family: 'Indie Flower', cursive;
+}
+
+header h1 {
+    position: relative;
+    bottom: 15px;
+    padding-left: 20px;
+}
+
+header h4 {
+    padding: 20px;
+}
+
+header i {
+    padding-left: 10px;
+}
+
+a {
+    font-size: .5em;
+    position: relative;
+    left: 640px;
+    top: 17px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.bigcontent {
+    background-color: rgb(13, 146, 1);
+    grid-row: 2/3;
+    font-family: 'Scada', sans-serif;
+}
+
+h2 {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+p {
+    font-family: 'Scada', sans-serif;
+}
+
+footer {
+    background-color: rgb(62, 194, 29);
+    grid-row: 3/4;
+    font-family: 'Scada', sans-serif;
+}
+
+.map {
+    margin: 20px;
+    float: left;
+    border-radius: 90px;
+    border: 10px solid rgb(206, 166, 106);
+}
+
+.lus {
+    position: relative;
+    bottom: 25px;
+    margin: 20px;
+    float: right;
+    border-radius: 90px;
+    border: 10px solid rgb(206, 166, 106);
+}
+
+.search {
+    position: relative;
+    width: 13%;
+    top: 20px;
+    left: 520px;
+    font-family: 'Scada', sans-serif;
+    border-color: rgb(102, 71, 3);
+}
+
+.go {
+    position: relative;
+    top: 20px;
+    left: 520px;
+    font-family: 'Scada', sans-serif;
+}
+
+.nameBox {
+    border-color: rgb(102, 71, 3);
+    width: 15%;
+}
+
+.emailBox {
+    border-color: rgb(102, 71, 3);
+    width: 15%
+}
+
+.submitBox {
+    padding: 4px;
+}
+
+.submitBox {
+    width: 99%;
+    height: 25px;
+}
+
+.submitBox:hover {
+    background-color: rgb(53, 39, 0);
+    color: gold;
+    border-color: rgb(53, 39, 0);
+}
+
+.fa {
+    color: rgb(102, 71, 3) !important;
+}
+
+input {
+    font-family: 'Scada', sans-serif;
+}
+
+
+input:focus {
+    outline: 3px solid #f13df1;
+}
+
+.signup {
+    padding-left: 30px;
+}
+
+button {
+    font-family: 'Scada', sans-serif;
+}
+
+.designspec {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 55%;
+    bottom: 40%;
+    
+}
+.designspec:visited {
+    color: black;
+}
+h3 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.6em;
+    padding-top: 15px;
+    margin: 10px;
+}
+
+
+
+
+
+/*mobile stuffffffffff*/
+
+@media only screen and (max-width: 767px) {
+    .layout {
+        display: grid;
+        grid-template-rows: 15vh 65vh 20vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    header h1{
+        padding-top: 20px;
+        font-size: 1.3em;
+    }
+    header a {
+        font-size: .5em;
+        position: relative;
+        left: 20%;
+    }
+
+    img {
+        border-width: 1px;
+        width: 15%;
+        height: 15%;
+    }
+
+    .bigcontent h2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1.4em;
+    }
+    .bigcontent p {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: .7em;
+    }
+
+    .go {
+        position: relative;
+        left: 40%;
+        bottom: 10%;
+    }
+    .search {
+        position: relative;
+        left: 40%;
+        bottom: 10%;
+    }
+
+    .designspec {
+        font-size: 1.5em;
+        position: relative;
+        left: 28%;
+        
+    }
+}

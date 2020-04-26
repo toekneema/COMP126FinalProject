@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!--slicknav stuff-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#nav_menu").slicknav({
+                prependTo: "#mobilemenu"
+            });
+        });
+    </script>
+    <!--slicknav stuff-->
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nanum+Pen+Script&family=Scada&display=swap"
+        rel="stylesheet">
+    <!--google fonts-->
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!--fontawesome-->
+
+
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irish Wrecks Online</title>
+</head>
+
+<body>
+    <div class="grid">
+
+        <div class="beforeHeader">
+            <!-- This is the empty nav element that will serve as a placeholder for the slicknav version of .nav_menu. -->
+            <nav id="mobilemenu"></nav>
+
+            <!-- default nav menu -->
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="lastitem">Conditions of Use</a></li>
+                </ul>
+            </nav>
+            <!--end of default nav menu-->
+        </div>
+
+        <header>
+            <img src="ireland.png" alt="hi" width="200" height="200">
+            <h1>Irish Wrecks Online
+                <h3><i class="fas fa-ship fa-.5x"></i>A Diver's Guide<i class="fas fa-anchor fa-.5x"></i></h3>
+            </h1>
+
+
+        </header>
+        <div class='bottomhalf'>
+            <img class="img1" src="coloredClover.png" alt="hi" width="100" height="100">
+            <img class="img2" src="coolclover.png" alt="hi" width="100" height="100">
+            <img class="img3" src="notredameclover.png" alt="hi" width="100" height="100">
+            <div class="nextpage">
+                <a href="/content.html">See Map<i class="fas fa-arrow-alt-circle-right"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
